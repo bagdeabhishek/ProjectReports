@@ -1,0 +1,93 @@
+  <!DOCTYPE html>
+  <html>
+
+  <head>
+
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<title>Mini Form</title>
+
+  	<link rel="stylesheet" href="assets/demo.css">
+  	<link rel="stylesheet" href="assets/form-mini.css">
+
+  </head>
+  <body>
+
+
+  	<header>
+    <img src="logo.png" align="left" style="vertical-align:middle;"height="90px">
+
+  		<h1 style="padding-top: 19px; padding-left: 17px;">Disease outbreak Surveillance in IIT Bombay</h1>
+          <a href="map.php" >View Map</a>
+      </header>
+      <div class="main-content" >
+
+          <!-- You only need this form and the form-mini.css -->
+          <!--<img src="logo.svg" style="height: 10%" align="left"> -->
+          <div class="form-mini-container" style="background-image: url("ab.png");">
+            <h1>Please report any instance of disease.</h1>
+              
+              <form class="form-mini" action="map.php" action="get">
+
+                  <div class="form-row">
+                      <label>
+                      <select class="form-control" name="hostel">
+                            <option value="1">Hostel 1</option>
+                            <option value="2">Hostel 2</option>
+                            <option value="3">Hostel 3</option>
+                            <option value="4">Hostel 4</option>
+                            <option value="5">Hostel 5</option>
+                            <option value="6">Hostel 6</option>
+                            <option value="7">Hostel 7</option>
+                            <option value="8">Hostel 8</option>
+                            <option value="9">Hostel 9</option>
+                            <option value="10">Hostel 10</option>
+                            <option value="11">Hostel 11</option>
+                            <option value="12">Hostel 12</option>
+                            <option value="13">Hostel 13</option>
+                            <option value="14">Hostel 14</option>
+                            <option value="15">Hostel 15</option>
+                            <option value="16">Hostel 16</option>
+                      </select>
+                      </label>
+                  </div>
+
+                  <div class="form-row">
+                      <input type="text" name="room" placeholder="Enter your room no.">
+                  </div>
+
+                  <div class="form-row">
+                      <label>
+                          <select name="disease" class="form-control">
+                              <option value='Heart, Lung and Other Organ Diseases'>Heart, Lung and Other Organ Diseases</option>
+                              <option value='Blood and Immune System Diseases'>Blood and Immune System Diseases</option>
+                              <option value='Cancer'>Cancer</option>
+                              <option value='Injury'>Injury</option>
+                              <option value='Brain and Nervous System Diseases'>Brain and Nervous System Diseases</option>
+                              <option value='Endocrine System Diseases'>Endocrine System Diseases</option>
+                              <option value='Infectious and Parasitic Diseases'>Infectious and Parasitic Diseases</option>
+                              <option value='Pregnancy and Childbirth-Related Diseases'>Pregnancy and Childbirth-Related Diseases</option>
+                              <option value='Environmentally-Acquired Diseases'>Environmentally-Acquired Diseases</option>
+                          </select>
+                      </label>
+                  </div>
+
+                  <div class="form-row">
+                      <input type="text" name="symp" placeholder="Please enter Symptoms">
+                  </div>
+                  <div class="form-row form-last-row">
+                      <button type="submit">Submit Form</button>
+                  </div>
+
+              </form>
+              <blockquote style="padding-top:30px;"><b><i>"Prevention is always better than cure"</i></b></blockquote>
+          </div>
+
+
+      </div>
+
+  </body>
+
+  </html>
